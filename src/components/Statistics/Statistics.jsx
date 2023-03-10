@@ -10,7 +10,6 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <Notification>{message}</Notification>
       <p> Good: {good}</p>
       <p> Neutral: {neutral}</p>
       <p> Bad: {bad}</p>
