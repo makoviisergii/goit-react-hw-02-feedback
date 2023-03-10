@@ -1,5 +1,3 @@
-import styled from 'styled-components';
-
 export const Statistics = ({
   good,
   neutral,
@@ -18,9 +16,3 @@ export const Statistics = ({
     </div>
   );
 };
-
-const Notification = styled.h2`
-  text-align: center;
-  font-size: 28px;
-  font-weight: 700;
-`;
