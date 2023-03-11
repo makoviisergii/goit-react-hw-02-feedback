@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 export const FeedbackOptions = props => {
   const onHandeleClick = event => {
@@ -18,6 +19,10 @@ export const FeedbackOptions = props => {
       </Button>
     </div>
   );
+};
+
+FeedbackOptions.propTypes = {
+  onLeaveFeedback: PropTypes.string.isRequired,
 };
 
 const Button = styled.button`
